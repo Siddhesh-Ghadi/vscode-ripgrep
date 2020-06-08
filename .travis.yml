@@ -1,3 +1,8 @@
+arch:
+- ppc64le
+- s390x
+- amd64
+
 before_script:
 - curl https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 - source ~/.nvm/nvm.sh
