@@ -9,6 +9,7 @@ before_script:
 - nvm install 10
 
 script:
+- cd $HOME
 - ls
 - npm i vscode-ripgrep
 - npm list
