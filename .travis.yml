@@ -10,6 +10,5 @@ before_script:
 
 script:
 - ls
-- npm install 
-- ls
-- bin/rg --version
+- npm i vscode-ripgrep
+- npm list
